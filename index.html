@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./src/libs/gsap/gsap.min.js" defer></script>
+    <script src="./src/libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./src/libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>Parallax</title>
+</head>
+<body>
+ <div class="wrapper">
+    <div class="content">
+            <header class="main-header">
+                <div class="layers">
+                    <div class="layers__header">
+                        <h1 class="layers__caption">Welcom to Parallax</h1>
+                        <p class="layers__title">Fairy Forest</p>
+                    </div>
+                    <div class="layer layers__base" style="background-image: url(./src/img/layer-base.png);"></div>
+                    <div class="layer layers__middle" style="background-image: url(./src/img/layer-middle.png);"></div>
+                    <div class="layer layers__front" style="background-image: url(./src/img/layer-front.png);"></div>
+                </div>
+            </header>
+        
+            <article class="main-artical" style="background-image: url(./src/img/dungeon.jpg);">
+                <div class="main-artical__content">
+                    <h2 class="main-artical__header">To be Continued</h2>
+                    <p class="main-artical__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ipsa laboriosam magnam est ea aliquid vero atque, explicabo ducimus aspernatur sint eos natus vitae quia molestias a rem inventore hic! Doloribus, voluptates.</p>
+                </div>
+                <div class="copy">© DissWeek</div>
+            </article>
+            
+    </div>
+ </div>
+</body>
+</html>
